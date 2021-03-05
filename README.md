@@ -2,7 +2,7 @@
 
 ![](https://github.com/cmur2/asdf-broot/workflows/ci/badge.svg)
 
-[broot](https://dystroy.org/broot) ([Github link](https://github.com/Canop/broot) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
+[broot](https://dystroy.org/broot) ([Github link](https://github.com/Canop/broot)) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
 ## Install
 
