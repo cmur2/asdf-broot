@@ -1,0 +1,23 @@
+name: refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '52 7 * * 4'  # weekly on thursday morning
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: refresh
+
+    - name: refresh
+      run: |
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        echo "## $(date)" >> README.md
+        git add README.md
+        git commit -m"ci: refresh"
+        git push
