@@ -1,4 +1,4 @@
-# asdf-github-release
+# asdf-broot
 
 ![](https://github.com/cmur2/asdf-broot/workflows/ci/badge.svg)
 
