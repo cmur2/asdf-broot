@@ -33,7 +33,7 @@ install() {
     echo "Installing binary"
     mkdir -p "$install_path_bin"
 
-    unzip -p - "$download_path" "build/$target_triplet/broot" > "${install_path_bin}/${BINARY_NAME}"
+    unzip -p - "$download_path" "$target_triplet/broot" > "${install_path_bin}/${BINARY_NAME}"
     chmod +x "${install_path_bin}/${BINARY_NAME}"
   else
     error_exit "Error: ${BINARY_NAME} version ${install_version} not found"
