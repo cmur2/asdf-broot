@@ -12,4 +12,4 @@ asdf plugin-add broot https://github.com/cmur2/asdf-broot.git
 
 ## Use
 
-Check out the [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install and manage versions of [github-release](https://github.com/Canop/broot).
+Check out the [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install and manage versions of [broot](https://github.com/Canop/broot).
